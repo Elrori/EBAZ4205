@@ -403,3 +403,4 @@ H6   PS_DDR_VREF0_502         NA                 502                NA          
 P6   PS_DDR_VREF1_502         NA                 502                NA            NA                  DDR       NA
                                                                                                                 
 Total Number of Pins, 400                                                                                                           
+
