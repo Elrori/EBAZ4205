@@ -128,4 +128,4 @@ set_property IOSTANDARD LVCMOS33 [get_ports {mii_rtl_0_txd[3]}]
 ########################################################################
 ### other constraint
 ########################################################################
-set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets {design_1_wrapper_0/design_1_i/axi_ethernetlite_0/U0/o}]
+
