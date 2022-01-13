@@ -198,13 +198,10 @@ E9   PS_MIO10_500             NA                 500                NA          
 B5   PS_MIO9_500              NA                 500                NA            NA                  MIO       NA
 D5   PS_MIO8_500              NA                 500                NA            NA                  MIO       NA
 D8   PS_MIO7_500              NA                 500                NA            NA                  MIO       NA
-
-A5   PS_MIO6_500              NA                 500                NA            NA                  MIO       NA 0
-
-A6   PS_MIO5_500              NA                 500                NA            NA                  MIO       NA 0
-B7   PS_MIO4_500              NA                 500                NA            NA                  MIO       NA 1
-D6   PS_MIO3_500              NA                 500                NA            NA                  MIO       NA 0
-
+A5   PS_MIO6_500              NA                 500                NA            NA                  MIO       NA
+A6   PS_MIO5_500              NA                 500                NA            NA                  MIO       NA
+B7   PS_MIO4_500              NA                 500                NA            NA                  MIO       NA
+D6   PS_MIO3_500              NA                 500                NA            NA                  MIO       NA
 B8   PS_MIO2_500              NA                 500                NA            NA                  MIO       NA
 A7   PS_MIO1_500              NA                 500                NA            NA                  MIO       NA
 E6   PS_MIO0_500              NA                 500                NA            NA                  MIO       NA
