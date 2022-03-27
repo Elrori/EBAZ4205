@@ -1,0 +1,93 @@
+// SPDX-License-Identifier: GPL-2.0+
+/*
+*  Copyright (C) 2011 - 2015 Xilinx
+*  Copyright (C) 2012 National Instruments Corp.
+*  2018.3
+*/  
+/dts-v1/;
+#include "zynq-7000.dtsi"
+#define  GPIO_ACTIVE_HIGH 0
+#define  GPIO_ACTIVE_LOW  1
+/ {
+   model = "Ebang EBAZ4205";
+   compatible = "ebang,ebaz4205", "xlnx,zynq-7000";
+
+   aliases {
+      ethernet0 = &gem0;
+      serial0 = &uart1;
+      mmc0 = &sdhci0;
+   };
+
+   memory@0 {
+      device_type = "memory";
+      reg = <0x0 0x10000000>;
+   };
+
+   chosen {
+      bootargs = "";
+      stdout-path = "serial0:115200n8";
+   };
+
+   ebaz-keys {
+      compatible = "gpio-keys";
+      autorepeat;
+      s2 {
+            label = "s2";
+            gpios = <&gpio0 20 GPIO_ACTIVE_HIGH>;
+            /*KEY_POWER*/
+            linux,code = <116>;
+            wakeup-source;
+            autorepeat;
+      };
+
+      s3 {
+            label = "s3";
+            gpios = <&gpio0 32 GPIO_ACTIVE_HIGH>;
+            /*KEY_HOME*/
+            linux,code = <102>;
+            wakeup-source;
+            autorepeat;
+      };
+   };
+   ebaz-leds {
+      compatible = "gpio-leds";
+
+      led-green {
+         label = "green";
+         gpios = <&gpio0 54 GPIO_ACTIVE_LOW>;
+         default-state = "on";
+      };
+      led-red {
+         label = "red";
+         gpios = <&gpio0 55 GPIO_ACTIVE_LOW>;
+         default-state = "on";
+      };
+   };
+
+};
+
+&clkc {
+   ps-clk-frequency = <33333333>;
+};
+
+&gem0 {
+   status = "okay";
+   phy-mode = "mii";
+   phy-handle = <&phy>;
+
+   /* PHY clock */
+   assigned-clocks = <&clkc 18>;
+   assigned-clock-rates = <25000000>;
+
+   phy: ethernet-phy@0 {
+      reg = <0>;
+   };
+};
+
+&sdhci0 {
+   status = "okay";
+};
+
+&uart1 {
+   status = "okay";
+};
