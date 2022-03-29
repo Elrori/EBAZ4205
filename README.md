@@ -16,7 +16,7 @@ EBAZ4205是EBIT BTC矿机的控制板，是最便宜的矿板，其他还有EBAZ
 
 ![3D预览KICAD6.0，HDMI DDC存在BUG，请不要焊接](https://github.com/Elrori/EBAZ4205/blob/master/EBAZEXT-V2/ebazext-v2.png)
 
-文章[链接](https://www.jianshu.com/p/f035751c2fe5)
+文章[链接](https://www.jianshu.com/p/f035751c2fe5),使用KICAD6.0，HDMI DDC存在BUG，请不要焊接。
 
 ...
 
