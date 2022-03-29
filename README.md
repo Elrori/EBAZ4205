@@ -8,7 +8,7 @@ EBAZ4205是EBIT BTC矿机的控制板，是最便宜的矿板，其他还有EBAZ
 
 文章[链接](https://www.jianshu.com/p/b83c663ecaaa)
 
-## u-boot & Linux 生成方法记录(SD卡启动)
+## u-boot&Linux生成方法记录(SD卡启动)
 
 文章[链接](https://www.jianshu.com/p/370f95f0068f)
 
