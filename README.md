@@ -6,20 +6,20 @@ EBAZ4205是EBIT BTC矿机的控制板，是最便宜的矿板，其他还有EBAZ
 
 - 裸机程序固化方法(原始板子)
 
-文章[链接](https://www.jianshu.com/p/b83c663ecaaa)
+  文章[链接](https://www.jianshu.com/p/b83c663ecaaa)
 
 - u-boot&Linux生成方法记录(SD卡启动)
 
-文章[链接](https://www.jianshu.com/p/370f95f0068f)
+  文章[链接](https://www.jianshu.com/p/370f95f0068f)
 
 - EBAZ5205+HDMI视频软解测试(SD卡启动)
 
-文章[链接](https://www.jianshu.com/p/f035751c2fe5),使用KICAD6.0，HDMI DDC存在BUG，请不要焊接。
+  文章[链接](https://www.jianshu.com/p/f035751c2fe5),使用KICAD6.0，HDMI DDC存在BUG，请不要焊接。
 
 - EBAZ4205 OpenWrt Release in progress
 
-[Elrori/openwrt-auto](https://github.com/Elrori/openwrt-auto)
+  [Elrori/openwrt-auto](https://github.com/Elrori/openwrt-auto)
 
 - 其他资料
 
-[其他关联repo](https://github.com/xjtuecho/EBAZ4205)
+  [其他关联repo](https://github.com/xjtuecho/EBAZ4205)
