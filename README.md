@@ -19,6 +19,7 @@ EBAZ4205是EBIT BTC矿机的控制板，是最便宜的矿板，其他还有EBAZ
 - EBAZ4205 OpenWrt Release.
 
   [Elrori/openwrt-auto](https://github.com/Elrori/openwrt-auto)
+  
   [将EBAZ4205变为OpenWrt旁路由](https://blog.csdn.net/z951573431/article/details/123819564)
 
 - 其他资料
