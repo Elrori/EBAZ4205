@@ -24,4 +24,4 @@ EBAZ4205是EBIT BTC矿机的控制板，是最便宜的矿板，其他还有EBAZ
 
 - 其他资料
 
-  [其他关联repo](https://github.com/xjtuecho/EBAZ4205)
+  [其他关联repo(English)](https://github.com/xjtuecho/EBAZ4205)
